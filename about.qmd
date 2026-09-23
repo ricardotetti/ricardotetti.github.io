@@ -6,9 +6,9 @@ Hi! I'm Ricardo.
 
 I'm a PhD researcher in complex systems, currently based in Istanbul and working on higher-order networks, synchronization, and symmetry.
 
-I'm originally from Brazil, and my academic path has taken me through computational physics, applied mathematics, climate research, and now increasingly obscure questions about networks and collective dynamics.
+I'm originally from Brazil, and my academic path has taken me through computational physics, applied mathematics, and now increasingly interesting questions about networks and collective dynamics.
 
-I created this website mostly because I wanted a little corner of the internet to write things down — about research, academia, living abroad, and everything that happens during a PhD that never makes it into a paper.
+I created this website mostly because I wanted a little corner of the internet to write things down: about research, academia, living abroad, and everything that happens during a PhD that never makes it into a paper.
 
 ## a little background
 

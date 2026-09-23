@@ -7,7 +7,7 @@ categories:
 description: "First official post I guess."
 ---
 
-So... apparently I have a blog now.
+So... apparently I have a blog now and this is the official first post, the last one was just a small test.
 
 I'm not entirely sure why.
 
@@ -37,7 +37,7 @@ or
 
 *Wait, what's a groupoid?*
 
-Mostly questions that at some point I had to Google myself.
+Mostly questions that at some point I had to Google myself, or asked to chatgpt haha.
 
 But I also want to write about the rest of the experience: conferences, living abroad, academia, things that go wrong, things that unexpectedly work, and whatever else seems worth remembering.
 
