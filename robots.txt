@@ -1,1 +1,1 @@
-Sitemap: https://ricardotetti.github.io/ricardo-blog/sitemap.xml
+Sitemap: https://ricardotetti.github.io/sitemap.xml
