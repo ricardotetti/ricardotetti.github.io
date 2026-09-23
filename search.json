@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "blog",
+    "section": "",
+    "text": "Notes about research, academia, living abroad, and whatever happens along the way.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhello, internet.\n\n\nApparently I have a blog now.\n\n\n\n\n\nSep 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nola.\n\n\nApparently I have a blog now.\n\n\n\n\n\nSep 22, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Ricardo.",
+    "section": "",
+    "text": "I’m a PhD candidate interested in complex systems, higher-order networks, and synchronization.\nCurrently trying to understand networks, academia, and why I thought doing a PhD abroad was a good idea.\nThis is my little corner of the internet.\n\n\n\n\n\n\n\n\n\nApparently I have a blog now.\n\n\n\n\n\nSep 22, 2026\n\n\n\n\n\n\n\n\nApparently I have a blog now.\n\n\n\n\n\nSep 22, 2026\n\n\n\n\n\nNo matching items\n\n\n\ncurrently\n📍 Istanbul, but for a couple days in Amsterdam\n🔬 working on: cluster synchronization on hypergraphs\n📖 reading: probably another paper I should have read months ago"
+  },
+  {
+    "objectID": "index.html#latest-posts",
+    "href": "index.html#latest-posts",
+    "title": "Hi, I’m Ricardo.",
+    "section": "",
+    "text": "Apparently I have a blog now.\n\n\n\n\n\nSep 22, 2026\n\n\n\n\n\n\n\n\nApparently I have a blog now.\n\n\n\n\n\nSep 22, 2026\n\n\n\n\n\nNo matching items\n\n\n\ncurrently\n📍 Istanbul, but for a couple days in Amsterdam\n🔬 working on: cluster synchronization on hypergraphs\n📖 reading: probably another paper I should have read months ago"
+  },
+  {
+    "objectID": "posts/hello-internet/index.html",
+    "href": "posts/hello-internet/index.html",
+    "title": "hello, internet.",
+    "section": "",
+    "text": "So… apparently I have a blog now.\nI’m not entirely sure why.\nMaybe because the last couple of years have involved a PhD, higher-order networks, moving countries, conferences, research, and a somewhat unreasonable amount of time staring at equations.\nAnd I thought some of it might be worth writing down.\nWe’ll see how long this lasts."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "My research is broadly about complex systems and nonlinear dynamics.\nA question that keeps showing up in what I do is deceptively simple:\nIn networked systems, the way components interact can strongly constrain the collective behaviors that emerge. During my PhD, I’ve been exploring this question in the context of higher-order networks, with a particular interest in symmetry and synchronization."
+  },
+  {
+    "objectID": "research.html#higher-order-networks",
+    "href": "research.html#higher-order-networks",
+    "title": "research",
+    "section": "higher-order networks",
+    "text": "higher-order networks\nTraditional networks represent interactions as links between pairs of nodes. This is an incredibly useful abstraction, but not every interaction is naturally pairwise.\nIn many systems, interactions can involve three or more components simultaneously. Higher-order networks provide a framework for representing these interactions explicitly, using structures such as hypergraphs and simplicial complexes.\nA large part of my work involves understanding what changes — structurally and dynamically — when we move from ordinary graphs to these higher-order representations."
+  },
+  {
+    "objectID": "research.html#symmetry",
+    "href": "research.html#symmetry",
+    "title": "research",
+    "section": "symmetry",
+    "text": "symmetry\nSymmetry provides a way of identifying parts of a network that are structurally equivalent.\nFor ordinary graphs, these symmetries can be described through graph automorphisms. In higher-order networks, things become more interesting: there are different ways of representing the same system, and the relationship between the symmetries of these representations is not always obvious.\nI’m interested in understanding these symmetries, how they can be detected, and what they can tell us about the dynamics supported by the network."
+  },
+  {
+    "objectID": "research.html#cluster-synchronization",
+    "href": "research.html#cluster-synchronization",
+    "title": "research",
+    "section": "cluster synchronization",
+    "text": "cluster synchronization\nSynchronization doesn’t necessarily mean that every node in a system behaves identically.\nInstead, subsets of nodes can synchronize with each other while remaining dynamically distinct from the rest of the network. This phenomenon is known as cluster synchronization.\nOne of the main questions I’m exploring is how these synchronized clusters relate to the structural symmetries of higher-order networks — including when symmetry predicts possible synchronization patterns and, perhaps more interestingly, when it doesn’t."
+  },
+  {
+    "objectID": "research.html#beyond-symmetry",
+    "href": "research.html#beyond-symmetry",
+    "title": "research",
+    "section": "beyond symmetry",
+    "text": "beyond symmetry\nStructure can tell us a lot about dynamics, but perhaps not everything.\nPart of my current work is concerned with situations in which synchronized patterns cannot be explained by conventional automorphisms alone. This raises a broader question that I find particularly interesting:\n\nHow much can we actually infer about dynamics from structure alone?\n\nAnswering that requires looking beyond conventional symmetry descriptions and exploring more general ways of relating network structure to dynamically invariant patterns."
+  },
+  {
+    "objectID": "research.html#research-notes",
+    "href": "research.html#research-notes",
+    "title": "research",
+    "section": "research notes",
+    "text": "research notes\nI occasionally use the blog to write informal explanations of concepts, papers, or problems that I encounter while working on these questions.\nThese aren’t polished research results. They’re mostly notes from trying to understand things myself — which, I’ve learned, is usually when I understand them best.\n→ browse the blog"
+  },
+  {
+    "objectID": "posts/ola/index.html",
+    "href": "posts/ola/index.html",
+    "title": "ola.",
+    "section": "",
+    "text": "So… apparently I have a blog now.\nI’m not entirely sure why.\nMaybe because the last couple of years have involved a PhD, higher-order networks, moving countries, conferences, research, and a somewhat unreasonable amount of time staring at equations.\nAnd I thought some of it might be worth writing down.\nWe’ll see how long this lasts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "Hi! I’m Ricardo.\nI’m a PhD researcher in complex systems, currently based in Istanbul and working on higher-order networks, synchronization, and symmetry.\nI’m originally from Brazil, and my academic path has taken me through computational physics, applied mathematics, climate research, and now increasingly obscure questions about networks and collective dynamics.\nI created this website mostly because I wanted a little corner of the internet to write things down — about research, academia, living abroad, and everything that happens during a PhD that never makes it into a paper."
+  },
+  {
+    "objectID": "about.html#a-little-background",
+    "href": "about.html#a-little-background",
+    "title": "about",
+    "section": "a little background",
+    "text": "a little background\nI studied Computational Physics at the University of São Paulo (USP) and later completed a master’s degree in Applied Mathematics, also at USP.\nDuring my master’s, I spent six months in Germany working at the Potsdam Institute for Climate Impact Research (PIK). That period was also part of what eventually led me deeper into complex systems and nonlinear dynamics.\nI’m now a doctoral researcher in the BeyondTheEdge project at Kadir Has University in Istanbul, where my research focuses on higher-order networks, synchronization, and symmetry.\nMost of the time, this means trying to understand how the structure of interactions shapes collective dynamics — and occasionally wondering why a seemingly simple question has led me to another completely new branch of mathematics.\nOutside research, I like bouldering — which apparently everyone does these days — and I’ve recently been spending way too much time playing Zelda."
+  },
+  {
+    "objectID": "about.html#this-website",
+    "href": "about.html#this-website",
+    "title": "about",
+    "section": "this website",
+    "text": "this website\nThis website is partly a research notebook, partly a PhD diary, and partly an excuse to keep a record of this slightly chaotic period of my life.\nSome posts will be about things I’m learning. Others might be about conferences, living abroad, academia, or whatever strange situation the PhD has put me in that week.\nNo promises about a regular posting schedule."
+  }
+]

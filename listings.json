@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/hello-internet/index.html",
+      "/posts/ola/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/hello-internet/index.html",
+      "/posts/ola/index.html"
+    ]
+  }
+]
