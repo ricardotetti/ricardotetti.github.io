@@ -1,0 +1,55 @@
+---
+title: "research"
+---
+
+My research is broadly about **complex systems and nonlinear dynamics**.
+
+A question that keeps showing up in what I do is deceptively simple:
+
+> **How does structure shape dynamics?**
+
+In networked systems, the way components interact can strongly constrain the collective behaviors that emerge. During my PhD, I've been exploring this question in the context of **higher-order networks**, with a particular interest in **symmetry and synchronization**.
+
+## higher-order networks
+
+Traditional networks represent interactions as links between pairs of nodes. This is an incredibly useful abstraction, but not every interaction is naturally pairwise.
+
+In many systems, interactions can involve three or more components simultaneously. **Higher-order networks** provide a framework for representing these interactions explicitly, using structures such as hypergraphs and simplicial complexes.
+
+A large part of my work involves understanding what changes — structurally and dynamically — when we move from ordinary graphs to these higher-order representations.
+
+## symmetry
+
+Symmetry provides a way of identifying parts of a network that are structurally equivalent.
+
+For ordinary graphs, these symmetries can be described through graph automorphisms. In higher-order networks, things become more interesting: there are different ways of representing the same system, and the relationship between the symmetries of these representations is not always obvious.
+
+I'm interested in understanding these symmetries, how they can be detected, and what they can tell us about the dynamics supported by the network.
+
+## cluster synchronization
+
+Synchronization doesn't necessarily mean that every node in a system behaves identically.
+
+Instead, subsets of nodes can synchronize with each other while remaining dynamically distinct from the rest of the network. This phenomenon is known as **cluster synchronization**.
+
+One of the main questions I'm exploring is how these synchronized clusters relate to the structural symmetries of higher-order networks — including when symmetry predicts possible synchronization patterns and, perhaps more interestingly, when it doesn't.
+
+## beyond symmetry
+
+Structure can tell us a lot about dynamics, but perhaps not everything.
+
+Part of my current work is concerned with situations in which synchronized patterns cannot be explained by conventional automorphisms alone. This raises a broader question that I find particularly interesting:
+
+> **How much can we actually infer about dynamics from structure alone?**
+
+Answering that requires looking beyond conventional symmetry descriptions and exploring more general ways of relating network structure to dynamically invariant patterns.
+
+---
+
+## research notes
+
+I occasionally use the blog to write informal explanations of concepts, papers, or problems that I encounter while working on these questions.
+
+These aren't polished research results. They're mostly notes from trying to understand things myself — which, I've learned, is usually when I understand them best.
+
+→ [browse the blog](blog.qmd)

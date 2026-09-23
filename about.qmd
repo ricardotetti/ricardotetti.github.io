@@ -1,0 +1,35 @@
+---
+title: "about"
+---
+
+Hi! I'm Ricardo.
+
+I'm a PhD researcher in complex systems, currently based in Istanbul and working on higher-order networks, synchronization, and symmetry.
+
+I'm originally from Brazil, and my academic path has taken me through computational physics, applied mathematics, climate research, and now increasingly obscure questions about networks and collective dynamics.
+
+I created this website mostly because I wanted a little corner of the internet to write things down — about research, academia, living abroad, and everything that happens during a PhD that never makes it into a paper.
+
+## a little background
+
+I studied Computational Physics at the University of São Paulo (USP) and later completed a master's degree in Applied Mathematics, also at USP.
+
+During my master's, I spent six months in Germany working at the Potsdam Institute for Climate Impact Research (PIK). That period was also part of what eventually led me deeper into complex systems and nonlinear dynamics.
+
+I'm now a doctoral researcher in the **BeyondTheEdge** project at Kadir Has University in Istanbul, where my research focuses on higher-order networks, synchronization, and symmetry.
+
+Most of the time, this means trying to understand how the structure of interactions shapes collective dynamics — and occasionally wondering why a seemingly simple question has led me to another completely new branch of mathematics.
+
+Outside research, I like bouldering — which apparently everyone does these days — and I've recently been spending way too much time playing Zelda.
+
+## this website
+
+This website is partly a research notebook, partly a PhD diary, and partly an excuse to keep a record of this slightly chaotic period of my life.
+
+Some posts will be about things I'm learning. Others might be about conferences, living abroad, academia, or whatever strange situation the PhD has put me in that week.
+
+No promises about a regular posting schedule.
+
+<!-- ## elsewhere -->
+
+<!-- [GitHub](SEU-LINK) · [LinkedIn](SEU-LINK) · [Google Scholar](SEU-LINK) -->

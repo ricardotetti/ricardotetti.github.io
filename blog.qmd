@@ -1,0 +1,14 @@
+---
+title: "blog"
+body-classes: blog-page
+
+listing:
+  contents: "posts/*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
+
+Notes about research, academia, living abroad, and whatever happens along the way.

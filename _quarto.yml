@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Ricardo Tetti"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: home
+      - href: about.qmd
+        text: about
+      - href: research.qmd
+        text: research
+      - href: blog.qmd
+        text: blog
+
+  page-footer:
+    center: "made with Quarto and questionable life choices"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

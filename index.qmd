@@ -1,0 +1,40 @@
+---
+pagetitle: "Ricardo Tetti"
+
+listing:
+  - id: latest-posts
+    contents: "posts/*/index.qmd"
+    sort: "date desc"
+    max-items: 3
+    type: default
+    fields: [date, title, description]
+    sort-ui: false
+    filter-ui: false
+---
+
+# Hi, I'm Ricardo.
+
+I'm a PhD candidate interested in **complex systems, higher-order networks, and synchronization**.
+
+Currently trying to understand networks, academia, and why I thought doing a PhD abroad was a good idea.
+
+This is my little corner of the internet.
+
+---
+
+## latest posts
+
+::: {#latest-posts}
+:::
+
+---
+
+<div class="currently">
+
+**currently**
+
+📍 Istanbul, but for a couple days in Amsterdam  
+🔬 working on: cluster synchronization on hypergraphs  
+📖 reading: *probably another paper I should have read months ago*
+
+</div>

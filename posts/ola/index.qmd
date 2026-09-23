@@ -1,0 +1,18 @@
+---
+title: "ola."
+date: 2026-09-22
+categories: [phd diary, random]
+description: "Apparently I have a blog now."
+---
+
+So... apparently I have a blog now.
+
+I'm not entirely sure why.
+
+Maybe because the last couple of years have involved a PhD,
+higher-order networks, moving countries, conferences, research,
+and a somewhat unreasonable amount of time staring at equations.
+
+And I thought some of it might be worth writing down.
+
+We'll see how long this lasts.

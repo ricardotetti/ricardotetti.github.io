@@ -1,0 +1,258 @@
+/* =========================================================
+   ricardotetti.com
+   ========================================================= */
+
+
+/* ---------- general ---------- */
+
+body {
+  background: #faf9f6;
+  color: #222;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+
+/* ---------- page width ---------- */
+
+#quarto-content {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main.content {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ---------- headings ---------- */
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2rem;
+  text-transform: lowercase;
+}
+
+
+/* ---------- links ---------- */
+
+a {
+  color: #2457c5;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #163a8c;
+}
+
+
+/* ---------- navbar ---------- */
+
+.navbar {
+  background: #faf9f6 !important;
+  border-bottom: 1px solid #aaa;
+}
+
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.4rem;
+}
+
+.navbar-nav .nav-link {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #222 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------- separators ---------- */
+
+hr {
+  border: 0;
+  border-top: 1px solid #aaa;
+  margin: 2.5rem 0;
+}
+
+
+/* ---------- currently ---------- */
+
+.currently {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-top: 1rem;
+}
+
+
+/* =========================================================
+   blog listings
+   ========================================================= */
+
+.quarto-listing {
+  margin-top: 2rem;
+}
+
+.quarto-listing-default .listing-item {
+  border-bottom: 1px solid #ccc;
+  padding-top: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+
+/* post title */
+
+.quarto-listing-default .listing-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.quarto-listing-default .listing-title a {
+  color: #2457c5;
+  text-decoration: underline;
+}
+
+
+/* description */
+
+.quarto-listing-default .listing-description {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+
+/* date */
+
+.quarto-listing-default .listing-date {
+  font-family: "Courier New", monospace;
+  font-size: 0.8rem;
+  color: #777;
+  white-space: nowrap;
+  min-width: 110px;
+}
+
+
+/* ---------- categories ---------- */
+
+.quarto-category {
+  font-family: "Courier New", monospace;
+  font-size: 0.72rem !important;
+  font-weight: normal !important;
+  text-transform: lowercase !important;
+  border: 1px solid #aaa !important;
+  border-radius: 0 !important;
+  padding: 0.15rem 0.4rem !important;
+  color: #555 !important;
+  background: transparent !important;
+}
+
+
+/* categories inside listings */
+
+.quarto-listing .listing-category,
+.quarto-listing .listing-category a {
+  font-family: "Courier New", monospace !important;
+  font-size: 0.72rem !important;
+  font-weight: normal !important;
+  text-transform: lowercase !important;
+  color: #666 !important;
+}
+
+.quarto-listing .listing-category {
+  border: 1px solid #aaa !important;
+  border-radius: 0 !important;
+  padding: 0.12rem 0.35rem !important;
+  background: transparent !important;
+}
+
+
+/* =========================================================
+   blog page
+   ========================================================= */
+
+body.blog-page #quarto-content {
+  max-width: 960px;
+}
+
+body.blog-page main.content {
+  max-width: 820px;
+  width: 100%;
+}
+
+
+/* =========================================================
+   individual posts
+   ========================================================= */
+
+.quarto-title-banner {
+  background: none;
+}
+
+.quarto-title-block .quarto-title {
+  margin-bottom: 1rem;
+}
+
+.quarto-title-meta {
+  font-family: "Courier New", monospace;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.quarto-title-meta-heading {
+  display: none;
+}
+
+.quarto-title-meta-contents {
+  color: #777;
+}
+
+
+/* =========================================================
+   footer
+   ========================================================= */
+
+.nav-footer {
+  border-top: 1px solid #aaa;
+  background: #faf9f6 !important;
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  color: #777;
+  margin-top: 4rem;
+}
+
+.nav-footer-center {
+  text-align: center;
+}
+
+
+/* ---------- small text ---------- */
+
+small {
+  color: #666;
+}
+
+/* align blog listing with page content */
+
+body.blog-page .quarto-listing {
+  margin-left: 15px;
+}
