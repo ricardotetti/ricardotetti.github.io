@@ -1,7 +1,9 @@
 ---
 title: "hello, internet."
-date: 2026-09-22
-categories: [phd diary, random]
+date: 2026-09-23
+categories:
+  - phd diary
+  - random
 description: "Apparently I have a blog now."
 ---
 
@@ -9,10 +11,52 @@ So... apparently I have a blog now.
 
 I'm not entirely sure why.
 
-Maybe because the last couple of years have involved a PhD,
-higher-order networks, moving countries, conferences, research,
-and a somewhat unreasonable amount of time staring at equations.
+Actually, that's not completely true.
 
-And I thought some of it might be worth writing down.
+For a while I've wanted a place to write things down that doesn't have to be a paper, a report, a presentation, or some other document that starts with a deadline attached to it.
 
-We'll see how long this lasts.
+I'm currently doing a PhD in complex systems, working mostly with higher-order networks, synchronization, and symmetry. This means I spend a considerable amount of time thinking about networks, staring at equations, writing code, and discovering that the thing I thought I understood yesterday is considerably more complicated today.
+
+It has also somehow involved moving to Istanbul, spending time in Germany, traveling for conferences and workshops, meeting people from very different places, and dealing with all the slightly absurd situations that seem to come with academic life.
+
+A lot happens during a PhD that never makes it into the final thesis.
+
+And I think that's the part I want to keep here.
+
+## so, what is this?
+
+I'm not completely sure yet.
+
+Part of this website will probably become a collection of research notes. I often realize that the best way to figure out whether I actually understand something is to try to explain it.
+
+So there will probably be posts with titles like:
+
+*Okay, but what exactly is a hypergraph?*
+
+or
+
+*Wait, what's a groupoid?*
+
+Mostly questions that at some point I had to Google myself.
+
+But I also want to write about the rest of the experience: conferences, living abroad, academia, things that go wrong, things that unexpectedly work, and whatever else seems worth remembering.
+
+Basically, somewhere between a research notebook and a PhD diary.
+
+## why now?
+
+I'm writing this from Amsterdam.
+
+I live in Istanbul.
+
+I'm Brazilian.
+
+And somehow this is a perfectly normal sentence in my life now.
+
+That might be the best explanation for why I decided to start keeping a record of all this.
+
+I don't know how often I'll write here, or what this website will eventually become.
+
+But for now:
+
+hello, internet.
