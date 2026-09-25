@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/Hypergraphs/index.html",
       "/posts/hello-internet/index.html",
       "/posts/ola/index.html"
     ]
@@ -9,6 +10,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Hypergraphs/index.html",
       "/posts/hello-internet/index.html",
       "/posts/ola/index.html"
     ]

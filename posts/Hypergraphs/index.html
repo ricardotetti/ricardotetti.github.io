@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-25">
+<meta name="description" content="A brief introduction to networks, hypergraphs, and higher-order interactions.">
 
-<title>Ricardo Tetti</title>
+<title>Networks, hypergraphs, and beyond – Ricardo Tetti</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-posts'] = new List('listing-latest-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -135,7 +106,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -145,7 +116,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ricardo Tetti</span>
     </a>
   </div>
@@ -156,19 +127,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">blog</span></a>
   </li>  
 </ul>
@@ -184,86 +155,144 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Networks, hypergraphs, and beyond</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">research notes</div>
+  </div>
+  </div>
 
-
-
-<section id="hi-im-ricardo." class="level1">
-<h1>Hi, I’m Ricardo.</h1>
-<p>I’m a PhD candidate interested in <strong>complex systems, higher-order networks, and synchronization</strong>.</p>
-<p>Currently trying to understand networks, academia, and why I thought doing a PhD abroad was a good idea.</p>
-<p>This is my little corner of the internet.</p>
-<hr>
-<section id="latest-posts" class="level2">
-<h2 class="anchored" data-anchor-id="latest-posts">latest posts</h2>
-<div id="listing-latest-posts" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cmVzZWFyY2glMjBub3Rlcw==" data-listing-date-sort="1790287200000" data-listing-file-modified-sort="1790344945952" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="585">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Hypergraphs/index.html" class="no-external">Networks, hypergraphs, and beyond</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/Hypergraphs/index.html" class="no-external">
-<p>A brief introduction to networks, hypergraphs, and higher-order interactions.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Hypergraphs/index.html" class="no-external">
-<div class="listing-date">
-Sep 25, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cGhkJTIwZGlhcnklMkNyYW5kb20=" data-listing-date-sort="1790114400000" data-listing-file-modified-sort="1790159311036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/hello-internet/index.html" class="no-external">hello, internet.</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/hello-internet/index.html" class="no-external">
-<p>First official post I guess.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/hello-internet/index.html" class="no-external">
-<div class="listing-date">
-Sep 23, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cGhkJTIwZGlhcnklMkNyYW5kb20=" data-listing-date-sort="1790028000000" data-listing-file-modified-sort="1790155928705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/ola/index.html" class="no-external">ola.</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/ola/index.html" class="no-external">
-<p>Apparently I have a blog now.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/ola/index.html" class="no-external">
-<div class="listing-date">
-Sep 22, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<hr>
-<div class="currently">
-<p><strong>currently</strong></p>
-<p>📍 Istanbul, but for a couple days in Amsterdam<br>
-🔬 working on: cluster synchronization on hypergraphs<br>
-📖 reading: <em>probably another paper I should have read months ago</em></p>
+<div>
+  <div class="description">
+    A brief introduction to networks, hypergraphs, and higher-order interactions.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 25, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Networks are everywhere.</p>
+<p>Social networks, power grids, transportation systems, neural networks, the basic idea is always similar: we have a collection of things and some way of describing how they interact.</p>
+<p>Mathematically, one of the simplest ways of representing this idea is through a graph.</p>
+<section id="networks-nodes-and-edges" class="level2">
+<h2 class="anchored" data-anchor-id="networks-nodes-and-edges">networks: nodes and edges</h2>
+<p>A graph is made of two basic things: nodes and edges.</p>
+<p>The nodes represent the elements of the system, while the edges represent interactions between them.</p>
+<p>More formally, a graph can be written as</p>
+<p><span class="math display">\[
+G = (V,E),
+\]</span></p>
+<p>where <span class="math inline">\(V\)</span> is the set of nodes and <span class="math inline">\(E\)</span> is the set of edges.</p>
+<p>For example, if</p>
+<p><span class="math display">\[
+V = \{1,2,3\},
+\]</span></p>
+<p>we could have</p>
+<p><span class="math display">\[
+E = \{\{1,2\},\{2,3\},\{1,3\}\}.
+\]</span></p>
+<p>There is something important hiding in this notation.</p>
+<p>Every edge contains two nodes.</p>
+<p>In other words, the usual graph representation assumes that interactions are <strong>pairwise</strong>.</p>
+<p>For a surprisingly large number of problems, this works extremely well.</p>
+<p>But not always.</p>
 </section>
+<section id="what-if-an-interaction-involves-more-than-two-things" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-an-interaction-involves-more-than-two-things">what if an interaction involves more than two things?</h2>
+<p>Suppose three nodes are not interacting through three independent pairwise relationships.</p>
+<p>Instead, imagine that something happens only when all three participate simultaneously.</p>
+<p>If we represent this interaction using an ordinary graph, we might draw a triangle. But in doing so, we have changed the meaning of the interaction.</p>
+<p>The triangle represents three pairwise interactions:</p>
+<p><span class="math display">\[
+\{1,2\}, \qquad \{2,3\}, \qquad \{1,3\}.
+\]</span></p>
+<p>What we actually wanted to describe was one interaction involving three nodes.</p>
+<p>These are not the same thing.</p>
+<div id="fig-hypergraph" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hypergraph-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="graph-vs-hypergraph.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hypergraph-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Pairwise and higher-order representations of interactions between the same three nodes. A triangle represents three pairwise interactions, while a three-node hyperedge represents a single three-body interaction.
+</figcaption>
+</figure>
+</div>
+<p>And this is where hypergraphs enter the story.</p>
+</section>
+<section id="hypergraphs" class="level2">
+<h2 class="anchored" data-anchor-id="hypergraphs">hypergraphs</h2>
+<p>A hypergraph relaxes the requirement that an edge must connect exactly two nodes.</p>
+<p>Instead of edges, we have hyperedges, and a hyperedge can contain more than two nodes.</p>
+<p>We can write a hypergraph as</p>
+<p><span class="math display">\[
+\mathcal{H} = (V,\mathcal{E}),
+\]</span></p>
+<p>where <span class="math inline">\(V\)</span> is again the set of nodes, while <span class="math inline">\(\mathcal{E}\)</span> is a set of hyperedges.</p>
+<p>For our three-node example, we could have</p>
+<p><span class="math display">\[
+V = \{1,2,3\}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\mathcal{E} = \{\{1,2,3\}\}.
+\]</span></p>
+<p>That single hyperedge represents one interaction involving all three nodes simultaneously.</p>
+<p>This gives us an important distinction:</p>
+<p><span class="math display">\[
+\{\{1,2\},\{2,3\},\{1,3\}\}
+\neq
+\{\{1,2,3\}\}.
+\]</span></p>
+<p>The object on the left describes three pairwise interactions.</p>
+<p>The object on the right describes one three-body interaction.</p>
+<p>They involve exactly the same nodes, but they encode different structures.</p>
+</section>
+<section id="higher-order-networks" class="level2">
+<h2 class="anchored" data-anchor-id="higher-order-networks">higher-order networks</h2>
+<p>Hypergraphs are one way of describing what are broadly called <strong>higher-order networks</strong>.</p>
+<p>The term refers to network representations in which interactions are not restricted to pairs of nodes.</p>
+<p>Hypergraphs are perhaps the most direct example, but they are not the only possibility. Simplicial complexes, for instance, provide another way of representing higher-order structure, with additional constraints on how interactions of different orders are related.</p>
+<p>There are also different mathematical representations of the same higher-order system, and, as I have been discovering during my PhD, moving between these representations is not always as innocent as it first appears.</p>
+<p>The structure we choose to represent a system determines what information is explicit, what information is hidden, and what mathematical tools we can use to study it.</p>
+</section>
+<section id="and-beyond" class="level2">
+<h2 class="anchored" data-anchor-id="and-beyond">and beyond</h2>
+<p>This is where things start getting interesting for me.</p>
+<p>Once we have a higher-order network, we can start asking many of the questions that we already ask for regular networks:</p>
+<ul>
+<li>Does the network have symmetries?</li>
+<li>Can different nodes be structurally equivalent?</li>
+<li>Can groups of nodes synchronize?</li>
+<li>Can the structure tell us which synchronization patterns are possible?</li>
+<li>And what happens when the usual notion of symmetry is not enough?</li>
+</ul>
+<p>Those are much closer to the questions I’m currently working on.</p>
+<p>So this post is just the beginning.</p>
+<p>Before talking about synchronization, automorphisms, or why I’ve recently been thinking about groupoids much more than I ever expected to, we first needed a network.</p>
+<p>Then we add some new structures.</p>
+<p>And somehow things got considerably more complicated from there.</p>
+
+
 </section>
 
 </main> <!-- /main -->
