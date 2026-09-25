@@ -1,0 +1,9 @@
+---
+title: "A few days in Amsterdam"
+date: 2026-09-24
+categories:
+  - phd diary
+  - random
+description: "Why am I here?"
+draft: true
+---
