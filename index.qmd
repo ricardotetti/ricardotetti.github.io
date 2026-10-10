@@ -33,7 +33,7 @@ This is my little corner of the internet.
 
 **currently**
 
-📍 Istanbul, but for a couple days in Amsterdam  
+📍 Istanbul  
 🔬 working on: cluster synchronization on hypergraphs  
 📖 reading: *probably another paper I should have read months ago*
 
